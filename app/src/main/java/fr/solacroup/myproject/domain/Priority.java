@@ -1,13 +1,14 @@
 package fr.solacroup.myproject.domain;
 
 public enum Priority {
-    LOW(0,"faible"),
-    HIGH (100, "haut");
 
-    private final int level;
+    LOW(0, "faible"),
+    HIGH(100, "haut");
+
+    private final Integer level;
     private final String name;
 
-    public int getLevel() {
+    public Integer getLevel() {
         return level;
     }
 
